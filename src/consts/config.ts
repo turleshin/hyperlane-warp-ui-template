@@ -4,7 +4,7 @@ const isDevMode = process?.env?.NODE_ENV === 'development';
 const version = process?.env?.NEXT_PUBLIC_VERSION || '0.0.0';
 const registryUrl = process?.env?.NEXT_PUBLIC_REGISTRY_URL || undefined;
 const explorerApiKeys = JSON.parse(process?.env?.EXPLORER_API_KEYS || '{}');
-const walletConnectProjectId = process?.env?.NEXT_PUBLIC_WALLET_CONNECT_ID || '';
+const walletConnectProjectId = process?.env?.NEXT_PUBLIC_WALLET_CONNECT_ID || 'a5126e7783dc57f5b346656ca02ac0d0';
 const withdrawalWhitelist = process?.env?.NEXT_PUBLIC_BLOCK_WITHDRAWAL_WHITELIST || '';
 const transferBlacklist = process?.env?.NEXT_PUBLIC_TRANSFER_BLACKLIST || '';
 
