@@ -13,11 +13,10 @@ export function TipCard() {
   if (!show) return null;
   return (
     <Card className="w-100 sm:w-[31rem]">
-      <h2 className="text-blue-500 sm:text-lg">Bridge Tokens with Hyperlane Warp Routes!</h2>
+      <h2 className="text-blue-500 sm:text-lg">Bridge ERC-20 Tokens to Movement with Hyperlane Warp Routes!</h2>
       <div className="flex items-end justify-between">
         <p className="mt-1 text-xs sm:text-sm max-w-[70%]">
-          Warp Routes make it easy to permissionlessly take your tokens interchain. Fork this
-          template to get started!
+          Warp Routes make it easy to permissionlessly take your tokens interchain.
         </p>
         <a
           href={links.github}
