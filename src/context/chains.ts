@@ -27,6 +27,7 @@ export async function assembleChainMetadata() {
   let defaultChainMetadata = chainMetadata;
   if (config.registryUrl) {
     logger.debug('Using custom registry', config.registryUrl);
+    console.log('Using custom registry');
     defaultChainMetadata = await registry.getMetadata();
   } else {
     logger.debug('Using default published registry');
