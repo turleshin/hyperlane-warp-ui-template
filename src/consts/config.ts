@@ -2,7 +2,7 @@ import { ADDRESS_BLACKLIST } from './blacklist';
 
 const isDevMode = process?.env?.NODE_ENV === 'development';
 const version = process?.env?.NEXT_PUBLIC_VERSION || '0.0.0';
-const registryUrl = process?.env?.NEXT_PUBLIC_REGISTRY_URL || "https://github.com/merklylabs/hyperlane-registry.git";
+const registryUrl = process?.env?.NEXT_PUBLIC_REGISTRY_URL || 'https://github.com/turleshin/hyperlane-registry.git';
 const explorerApiKeys = JSON.parse(process?.env?.EXPLORER_API_KEYS || '{}');
 const walletConnectProjectId = process?.env?.NEXT_PUBLIC_WALLET_CONNECT_ID || 'a5126e7783dc57f5b346656ca02ac0d0';
 const withdrawalWhitelist = process?.env?.NEXT_PUBLIC_BLOCK_WITHDRAWAL_WHITELIST || '';
