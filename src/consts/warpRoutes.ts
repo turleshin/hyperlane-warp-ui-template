@@ -53,7 +53,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
       symbol: 'ETH',
       name: 'Ether',
       logoURI: '/deployments/warp_routes/ETH/logo.svg',
-      addressOrDenom: "0x51561C50677aC1724901784Fe7d2B58c500eA94A"
+      addressOrDenom: "0x51561C50677aC1724901784Fe7d2B58c500eA94A",
       connections: [ { token: 'ethereum|basesepolia|0xd71Fa9ae7c7345285Ce378E384154f686ae3C89B' } ]
     },
     {
@@ -63,7 +63,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
      symbol: 'ETH',
      name: 'Ether',
      logoURI: '/deployments/warp_routes/ETH/logo.svg',
-     addressOrDenom: "0xd71Fa9ae7c7345285Ce378E384154f686ae3C89B"
+     addressOrDenom: "0xd71Fa9ae7c7345285Ce378E384154f686ae3C89B",
      onnections: [ { token: 'ethereum|arbitrumsepolia|0x51561C50677aC1724901784Fe7d2B58c500eA94A' } ]	
     }
 
