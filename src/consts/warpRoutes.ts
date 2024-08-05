@@ -47,23 +47,25 @@ export const warpRouteConfigs: WarpCoreConfig = {
       connections: [{ token: 'ethereum|basesepolia|0x74690B92a66b7125F86783900B1d227e66813f12' }]
     },
     {	
-	    chainName: 'arbitrumsepolia',
+      chainName: 'arbitrumsepolia',
       standard: TokenStandard.EvmHypNative,
       decimals: 18,
       symbol: 'ETH',
       name: 'Ether',
-      addressOrDenom: "0x976cD8d7e151DB93A2d60430C07D0ac789e7E1F7",
-	    connections: [ { token: 'ethereum|basesepolia|0xA1ae112f0daf0CE4043C25A0F016dAe27e571417' } ]
-	  },
-	{
-	  chainName: 'basesepolia',
-    standard: TokenStandard.EvmHypSynthetic,
-    decimals: 18,
-    symbol: 'ETH',
-    name: 'Ether',
-    addressOrDenom: "0xA1ae112f0daf0CE4043C25A0F016dAe27e571417",
-	  connections: [ { token: 'ethereum|arbitrumsepolia|0x976cD8d7e151DB93A2d60430C07D0ac789e7E1F7' } ]	
-	}
+      logoURI: '/deployments/warp_routes/ETH/logo.svg',
+      addressOrDenom: "0x51561C50677aC1724901784Fe7d2B58c500eA94A"
+      connections: [ { token: 'ethereum|basesepolia|0xd71Fa9ae7c7345285Ce378E384154f686ae3C89B' } ]
+    },
+    {
+     chainName: 'basesepolia',
+     standard: TokenStandard.EvmHypNative,
+     decimals: 18,
+     symbol: 'ETH',
+     name: 'Ether',
+     logoURI: '/deployments/warp_routes/ETH/logo.svg',
+     addressOrDenom: "0xd71Fa9ae7c7345285Ce378E384154f686ae3C89B"
+     onnections: [ { token: 'ethereum|arbitrumsepolia|0x51561C50677aC1724901784Fe7d2B58c500eA94A' } ]	
+    }
 
   ],
   options: {},
