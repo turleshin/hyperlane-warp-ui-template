@@ -33,6 +33,7 @@ export async function initWarpContext() {
   const coreConfig = await assembleWarpCoreConfig();
   const warpCore = WarpCore.FromConfig(multiProvider, coreConfig);
   warpContext = { registry, chains, multiProvider, warpCore };
+  console.log(warpContext);
   return warpContext;
 }
 
