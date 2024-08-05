@@ -4,6 +4,6 @@
 // If set to a list (including an empty list), only the specified routes will be included
 export const warpRouteWhitelist: Array<string> | null = null;
 // Example:
-// [
-//   // 'ETH/ethereum-viction'
-// ];
+[
+  'USDC/arbitrumsepolia-basesepolia'
+];
